@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://pm1.aminoapps.com/6580/c5088bc84d7407adc247a231f17968aa865b6a2f_hq.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(235, 213, 197);
+    font-family: 'Pirata One', cursive;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    height: 20vh;
+    margin-top: 50px;
+    align-items: center;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 25px;
+    width: 20%;
+    height: auto;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    right: 50px;
+}
+
+nav a {
+    color: #333;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 60px;
+    transition: color 1s;
+}
+
+nav a:hover {
+    color: #ff000d;
+    font-size: 30px;
+}
+
+.caja {
+    background-color: #D4C5AE;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid #201B15;
+    border-radius: 10px;
+}
+
+.caja {
+    padding: 20px;
+}
+  
+.personajes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.personaje {
+    margin: 10px;
+}
+  
+.personaje img {
+    max-width: 450px;
+    max-height: 450px;
+    border: none;
+    display: block;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #3A2923;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.personajes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+.personaje:hover {
+    transform: scale(1.05);
+}
+  
+.personaje-img {
+    max-width: 100%;
+}
+  
+.pie {
+    background-color: #3D2C27;
+    margin: 10px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 20px;
+}
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
